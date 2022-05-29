@@ -1,0 +1,12 @@
+body{
+    font-family:'Poppins';
+    background-image: url(imagenespng/fondo.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+.container{
+    display: grid;
+    grid-template-columns: auto;
+
+}
+}
