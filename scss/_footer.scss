@@ -1,0 +1,27 @@
+@import "variables";
+
+.footer{
+    display: grid;
+    text-align: center;
+    background-color: $primary;
+    padding: .3px;
+
+}
+.footer__inf{
+    font-size: smaller;
+    color: white;
+    padding-left: 1cm;
+    padding: .5rem;
+}
+.footer a{
+    text-align: center;
+}
+.footer__media{
+    width: 4rem;
+    padding: .4rem;
+}
+.footer__inf2{
+    font-size: smaller;
+    color: white;
+    padding-left: 1cm;
+}
