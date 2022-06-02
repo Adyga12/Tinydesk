@@ -6,12 +6,22 @@ $primary: #453880;
 $secundary: #00000091;
 $black: #000000;
 $danger: #bb004e;
+$xbox: #117c0f;
 
 $theme-colors: (
   "primary": $primary,
   "secundary": $secundary,
   "danger": $danger,
+  "xbox": $xbox,
 );
+.transpa-bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100;
+  opacity: 0.5;
+}
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
@@ -21,6 +31,8 @@ $theme-colors: (
 @import "navbar";
 @import "footer";
 @import "pc";
+@import "perifericos";
+@import "consolas";
 
 body{
   font-family:'Poppins';

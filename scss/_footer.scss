@@ -15,10 +15,13 @@
 }
 .footer a{
     text-align: center;
+    img:hover {
+        transform: scale(1.5);
+  } 
 }
 .footer__media{
     width: 4rem;
-    padding: .4rem;
+    padding: .4rem;    
 }
 .footer__inf2{
     font-size: smaller;
